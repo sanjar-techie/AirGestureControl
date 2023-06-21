@@ -1,0 +1,20 @@
+<launch>
+
+  <!-- Launch the orb3_ros_interface -->
+  <include file="/home/usrg/packages/ORB_SLAM3_ROS_Interface/Examples/orb3_ros_interface/launch/rgbd.launch" />
+
+  <!-- Launch mavros -->
+  <!-- <include file="/opt/ros/melodic/share/mavros/launch/team3.launch" /> -->
+
+  <!-- Launch the simple_pid_controller -->
+  <include file="$(find simple_pid_controller)/launch/sub_goal_pid.launch" />
+
+  <!-- Launch the mission_planner -->
+  <!-- <include file="$(find mission_planner)/launch/mission_planner.launch" /> -->
+
+  <!-- Launch the posenet -->
+  <include file="/home/usrg/catkin_ws/src/ros_deep_learning/launch/posenet.ros1.launch" />
+
+
+
+</launch>

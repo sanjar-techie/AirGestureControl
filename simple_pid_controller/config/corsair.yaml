@@ -1,0 +1,18 @@
+use_yaw : false
+
+Kxy : 1.0
+Kz : 0.8
+KDz : 0.5
+Kyaw : 1.5
+
+velxy_limit : 0.25
+velz_limit : 0.15
+yaw_limit : 0.10
+
+desired_subject_ratio : 0.30
+subject_ratio_thres : 0.05
+lateral_thres : 0.03
+ref_x_ratio : 2.0
+ref_y_ratio : 0.3
+ref_yaw_ratio : 0.25
+selfie_height : 1.5

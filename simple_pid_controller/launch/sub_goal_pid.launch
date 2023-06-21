@@ -1,0 +1,18 @@
+<launch>
+
+    <node name="sub_goal_pid" pkg="simple_pid_controller" type="simple_pid_controller_node" respawn="false" output="screen">
+        <rosparam file="$(find simple_pid_controller)/config/corsair.yaml" />  
+    </node>
+
+    <!--
+    <node name="mission_planner" pkg="simple_pid_controller" type="mission_planner_node" respawn="false" output="screen">
+    </node>
+
+    <node name="image_saver" pkg="image_view" type="image_saver" respawn="false">
+        <remap from="image" to="image_saver_topic"/>
+        <param name="filename_format" value="/home/ee478/Pictures/team1.jpg" />
+    </node>
+    -->
+
+
+</launch>
