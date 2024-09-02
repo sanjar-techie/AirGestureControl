@@ -12,7 +12,7 @@ This project implements an autonomous drone system capable of responding to huma
 
 ## System Architecture
 
-[Include a system architecture diagram here]
+![System Architecture](demo/sysArch.png)
 
 ## Prerequisites
 
