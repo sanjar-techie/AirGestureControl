@@ -4,7 +4,7 @@
   <version>0.0.0</version>
   <description>The simple_pid_controller package</description>
 
-  <maintainer email="your-email@domain.com">Your Name</maintainer>
+  <maintainer email="sanjar.techie@gmail.com">Your Name</maintainer>
 
   <license>TODO</license>
 
@@ -12,8 +12,8 @@
   <build_depend>roscpp</build_depend>
   <build_depend>geometry_msgs</build_depend>
   <build_depend>std_msgs</build_depend>
-  <build_depend>cv_bridge</build_depend>              <!-- Add this line -->
-  <build_depend>image_transport</build_depend>        <!-- And this line -->
+  <build_depend>cv_bridge</build_depend>             
+  <build_depend>image_transport</build_depend>        
   <build_export_depend>roscpp</build_export_depend>
   <build_export_depend>geometry_msgs</build_export_depend>
   <build_export_depend>std_msgs</build_export_depend>
@@ -26,8 +26,8 @@
   <exec_depend>roscpp</exec_depend>
   <exec_depend>geometry_msgs</exec_depend>
   <exec_depend>std_msgs</exec_depend>
-  <exec_depend>cv_bridge</exec_depend>                 <!-- Add this line -->
-  <exec_depend>image_transport</exec_depend>           <!-- And this line -->
+  <exec_depend>cv_bridge</exec_depend>                 
+  <exec_depend>image_transport</exec_depend>           
   <exec_depend>image_view</exec_depend>
 
   <export>

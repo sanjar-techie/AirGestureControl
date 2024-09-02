@@ -4,7 +4,7 @@
   <version>0.0.0</version>
   <description>The mission_planner package</description>
 
-  <maintainer email="ee478@todo.todo">ee478</maintainer>
+  <maintainer email="sanjar.techie@gmail.com"></maintainer>
 
   <license>TODO</license>
 
@@ -26,7 +26,6 @@
 
 
   <export>
-    <!-- Other tools can request additional information be placed here -->
 
   </export>
 </package>
