@@ -1,9 +1,5 @@
 <launch>
 
-<!--     
-    <node name="mission_planner_node" pkg="mission_planner" type="mission_planner_node" respawn="false" output="screen">
-    </node> -->
-   
     <node name="mission_planner_node_copy" pkg="mission_planner" type="mission_planner_node_copy" respawn="false" output="screen">
     </node>
 
