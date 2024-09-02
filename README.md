@@ -44,7 +44,7 @@ This project implements an autonomous drone system capable of responding to huma
 
 ## Demo
 
-[Include a GIF or link to a video demonstrating the drone in action]
+![Drone Demo](demo/droneDemo.gif)
 
 ## Code Structure
 
